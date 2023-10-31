@@ -1,0 +1,34 @@
+* {
+    margin: 5;
+}
+
+body {
+    background-color: grey;
+    color: white;
+}
+
+.blue-title>h1 {
+    color: lightblue;
+    font-size: 50px
+}
+
+.blue-title>h3 {
+    color: lightblue;
+}
+
+.blue-title>ul>li>span {
+    font-style: italic;
+}
+
+span.yellow-highlight {
+    color: yellow;
+    font-weight: bold;
+}
+
+.validator {
+    display: inline-flex;
+}
+
+.validator>p {
+    margin-right: 25px;
+}
