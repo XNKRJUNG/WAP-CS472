@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styleshopping.css" tyoe="text/css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="../images/yshrestha..png" alt="logo" />
+        </div>
+
+        <div class="welcome">
+            <h2>Welcome, Yogesh</h2>
+        </div>
+
+        <div class="logout">
+            <button type="button">Logout</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="tableContent">
+            <h3>Product List:</h3>
+            <div class="productList">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>Node.js</td>
+                        <td>$9.99</td>
+                        <td>8</td>
+                        <td><img src="../images/add-to-cart.png" style="width: 100px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>React</td>
+                        <td>$19.99</td>
+                        <td>5</td>
+                        <td><img src="../images/add-to-cart.png" style="width: 100px" />
+                    </tr>
+
+                    <tr>
+                        <td>Angular</td>
+                        <td>$29.99</td>
+                        <td>13</td>
+                        <td><img src="../images/add-to-cart.png" style="width: 100px" />
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="tableContent">
+            <h3>Your Shopping Cart:</h3>
+            <div class="productList">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Quantity</th>
+                    </tr>
+
+                    <tr>
+                        <td>Node.js</td>
+                        <td>$9.99</td>
+                        <td>$9.99</td>
+                        <td><input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Angular</td>
+                        <td>$29.99</td>
+                        <td>290.00</td>
+                        <td><input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+                    </tr>
+
+
+                    <tr class="row-to-right">
+                        <td>Total: $300.98</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="placeOrder">
+            <button type="submit">Place Order</button>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>

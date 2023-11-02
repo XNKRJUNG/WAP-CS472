@@ -1,0 +1,80 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #000000;
+    margin: 0px 2px 0px 2px;
+    padding: 0px 2px 0px 2px;
+}
+
+#header>.logo>img {
+    width: 80px;
+    height: 80px;
+}
+
+#header>.welcome {
+    align-self: center;
+    color: #eeeeee;
+}
+
+#header>.logout {
+    align-self: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+
+    background-color: grey;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #EAEE99;
+    color: black;
+}
+
+button:active {
+    background-color: #EABA99
+}
+
+#container {
+    margin: 10px 10px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+#container>.tableContent {
+    margin: 5px 5px 15px 5px;
+    padding: 5px;
+}
+
+#container>.tableContent>h3 {
+    text-transform: uppercase;
+}
+
+table {
+    display: flex;
+    justify-content: space-around;
+}
+
+th,
+td {
+    text-align: center;
+    width: 20vw;
+}
+
+.row-to-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.placeOrder {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
