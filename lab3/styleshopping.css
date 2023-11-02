@@ -80,7 +80,8 @@ td {
 }
 
 .validator {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .validator>p {
