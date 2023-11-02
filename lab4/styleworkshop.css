@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    background-color: #A2CBBC;
+    height: 3.5em;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.actionDropdown {
+    width: 200px;
+    margin: 5px 5px 5px 20px;
+    padding: 5px;
+}
+
+.actionDropdown>select {
+    text-decoration: none;
+    background-color: #A2CBBC;
+    border: 0px;
+    outline: 0px;
+}
+
+.parent-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.notice {
+    text-decoration: underline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.col1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 80px; */
+    margin: 5px 80px 5px 5px;
+    padding: 5px;
+}
+
+.col1>.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.required {
+    color: red;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 60%;
+    /* padding-left: 50px; */
+}
+
+.col2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 80px;
+    padding: 5px;
+}
+
+.col2>.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.col2>.row1 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.col2>p {
+    text-decoration: underline;
+}
+
+.miniCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.miniCol>div {
+    position: relative;
+    left: 175px
+}
+
+.miniCol>div>input {
+    display: inline-flex;
+    align-items: start;
+    width: auto;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E3E3E3;
+    height: 3.5em;
+    margin-bottom: 20px;
+}
+
+.buttonDiv>div>button {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #A2CBBC;
+    height: 35px;
+    width: 90px;
+}
+
+.btn1 {
+    margin-right: 5px;
+}
+
+.btn2 {
+    margin-left: 5px;
+}
+
+.validator {
+    display: flex;
+    justify-content: center;
+}
+
+.validator>p {
+    margin-right: 25px;
+}

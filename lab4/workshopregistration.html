@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop Registration</title>
+    <link href="styleworkshop.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="title">Workshop Registration</div>
+        <div class="actionDropdown">
+            <select name="action" id="action">
+                <option value="someaction">Some Action</option>
+                <option value="moreaction" selected>More Actions</option>
+            </select>
+        </div>
+    </header>
+
+    <p class="notice">Register now while seats are available!</p>
+
+    <form id="registration-form" action="#">
+        <div class="parent-container">
+
+            <div class="col1">
+                <div class="row">
+                    <label for="fname">First Name <span class="required">*</span></label>
+                    <input type="text" name="fname" required />
+                </div>
+                <div class="row">
+                    <label for="lname">Last Name <span class="required">*</span></label>
+                    <input type="text" name="lname" required />
+                </div>
+                <div class="row">
+                    <label for="companyname">Company/Institution <span class="required">*</span></label>
+                    <input type="text" name="companyname" required />
+                </div>
+                <div class="row">
+                    <label for="address">Address <span class="required">*</span></label>
+                    <textarea name="address" rows="4" cols="auto" required></textarea>
+                </div>
+                <div class="row">
+                    <label for="city">City</label>
+                    <input type="text" name="city" />
+                </div>
+                <div class="row">
+                    <label for="state">State/ Province/ Region</label>
+                    <select name="state" id="state">
+                        <option value="none" selected>-Select-</option>
+                        <option value="option1">PA</option>
+                        <option value="option2">MI</option>
+                        <option value="option3">MN</option>
+                        <option value="option4">IA</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="none" selected>-Select-</option>
+                        <option value="option1">Nepal</option>
+                        <option value="option2">China</option>
+                        <option value="option3">USA</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="city">Email <span class="required">*</span></label>
+                    <input type="text" name="email" />
+                </div>
+                <div class="row">
+                    <label for="city">Phone Number <span class="required">*</span></label>
+                    <input type="text" name="phoneNumber" />
+                </div>
+            </div>
+
+            <div class="col2">
+                <p>Lunch</p>
+                <div class="row">
+                    <label for="meal">Meal Preference</label>
+                    <select name="meal" id="meal">
+                        <option value="none" selected>-Select-</option>
+                        <option value="option1" selected>Non-vegetarian</option>
+                        <option value="option2">Vegetarian</option>
+                    </select>
+                </div>
+
+                <p>Payment Details</p>
+                <div class="row1">
+                    <label for="paymentMethod">Payment Mode</label>
+                    <div class="miniCol">
+                        <div>
+                            <input type="checkbox" name="paymentMethod" value="cash" />Cash
+                        </div>
+                        <div>
+                            <input type="checkbox" name="paymentMethod" value="cheque" /> Cheque
+                        </div>
+                        <div>
+                            <input type="checkbox" name="paymentMethod" value="demandDraft" /> Draft Demand
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <label for="chequeNo">DD/Cheque No.</label>
+                    <input type="text" name="chequeNo" />
+                </div>
+
+                <div class="row">
+                    <label for="drawnOn">Drawn On (Bank Name)</label>
+                    <input type="text" name="drawnOn" />
+                </div>
+
+                <div class="row">
+                    <label for="payableAt">Payable at</label>
+                    <input type="text" name="payableAt" />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttonDiv">
+            <div class="btn1">
+                <button type="submit">Submit</button>
+            </div>
+            <div class="btn2">
+                <button type="rest">Reset</button>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="validator">
+        <p>
+            <a
+                href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fxnkrjung.github.io%2FWAP-CS472%2Flab3%2Fshopping.html">
+                <img src="../images/htmlchecker.png" alt="html validator" width="150" height="50" />
+            </a>
+        </p>
+
+        <p>
+            <a
+                href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fxnkrjung.github.io%2FWAP-CS472%2Flab3%2Fshopping.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="../images/css_checker.png" alt="css validator" width="150" height="50" />
+            </a>
+        </p>
+    </div>
+
+
+</body>
+
+</html>
