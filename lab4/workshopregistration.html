@@ -27,23 +27,23 @@
             <div class="col1">
                 <div class="row">
                     <label for="fname">First Name <span class="required">*</span></label>
-                    <input type="text" name="fname" required />
+                    <input type="text" id="fname" name="fname" required />
                 </div>
                 <div class="row">
                     <label for="lname">Last Name <span class="required">*</span></label>
-                    <input type="text" name="lname" required />
+                    <input type="text" id="lname" name="lname" required />
                 </div>
                 <div class="row">
                     <label for="companyname">Company/Institution <span class="required">*</span></label>
-                    <input type="text" name="companyname" required />
+                    <input type="text" id="companyname" name="companyname" required />
                 </div>
                 <div class="row">
                     <label for="address">Address <span class="required">*</span></label>
-                    <textarea name="address" rows="4" cols="auto" required></textarea>
+                    <textarea name="address" id="address" rows="4" cols="auto" required></textarea>
                 </div>
                 <div class="row">
                     <label for="city">City</label>
-                    <input type="text" name="city" />
+                    <input type="text" id="city" name="city" />
                 </div>
                 <div class="row">
                     <label for="state">State/ Province/ Region</label>
@@ -65,12 +65,12 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label for="city">Email <span class="required">*</span></label>
-                    <input type="text" name="email" />
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="text" id="email" name="email" />
                 </div>
                 <div class="row">
-                    <label for="city">Phone Number <span class="required">*</span></label>
-                    <input type="text" name="phoneNumber" />
+                    <label for="phoneNumber">Phone Number <span class="required">*</span></label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" />
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                 <div class="row">
                     <label for="meal">Meal Preference</label>
                     <select name="meal" id="meal">
-                        <option value="none" selected>-Select-</option>
+                        <option value="none">-Select-</option>
                         <option value="option1" selected>Non-vegetarian</option>
                         <option value="option2">Vegetarian</option>
                     </select>
@@ -90,13 +90,14 @@
                     <label for="paymentMethod">Payment Mode</label>
                     <div class="miniCol">
                         <div>
-                            <input type="checkbox" name="paymentMethod" value="cash" />Cash
+                            <input type="checkbox" id="paymentMethod" name="paymentMethod" value="cash" />Cash
                         </div>
                         <div>
-                            <input type="checkbox" name="paymentMethod" value="cheque" /> Cheque
+                            <input type="checkbox" id="paymentMethod" name="paymentMethod" value="cheque" /> Cheque
                         </div>
                         <div>
-                            <input type="checkbox" name="paymentMethod" value="demandDraft" /> Draft Demand
+                            <input type="checkbox" id="paymentMethod" name="paymentMethod" value="demandDraft" /> Draft
+                            Demand
                         </div>
                     </div>
                 </div>
@@ -104,17 +105,17 @@
 
                 <div class="row">
                     <label for="chequeNo">DD/Cheque No.</label>
-                    <input type="text" name="chequeNo" />
+                    <input type="text" id="chequeNo" name="chequeNo" />
                 </div>
 
                 <div class="row">
                     <label for="drawnOn">Drawn On (Bank Name)</label>
-                    <input type="text" name="drawnOn" />
+                    <input type="text" id="drawnOn" name="drawnOn" />
                 </div>
 
                 <div class="row">
                     <label for="payableAt">Payable at</label>
-                    <input type="text" name="payableAt" />
+                    <input type="text" id="payableAt" name="payableAt" />
                 </div>
             </div>
 
@@ -125,7 +126,7 @@
                 <button type="submit">Submit</button>
             </div>
             <div class="btn2">
-                <button type="rest">Reset</button>
+                <button type="reset">Reset</button>
             </div>
         </div>
 
@@ -141,7 +142,7 @@
 
         <p>
             <a
-                href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fxnkrjung.github.io%2FWAP-CS472%2Flab3%2Fshopping.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fxnkrjung.github.io%2FWAP-CS472%2Flab4%2Fworkshopregistration.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
                 <img src="../images/css_checker.png" alt="css validator" width="150" height="50" />
             </a>
         </p>
