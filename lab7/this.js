@@ -1,10 +1,12 @@
 //Question #1
 //Arrow function
+console.log("Q#1:")
+console.log("Using Arrow function: ");
 let group = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
     showList: function () {
-        this.students.forEach( (student)=> {
+        this.students.forEach(student => {
             console.log(this.title + ": " + student);
         });
     }
@@ -12,7 +14,9 @@ let group = {
 
 group.showList();
 
+
 //.bind
+console.log("Using .blind: ");
 let group1 = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
@@ -26,6 +30,7 @@ let group1 = {
 group1.showList();
 
 //self
+console.log("Using self: ");
 let group2 = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
@@ -40,6 +45,7 @@ let group2 = {
 group2.showList();
 
 //.call
+console.log("Using .call: ");
 let group3 = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
@@ -55,6 +61,7 @@ let group3 = {
 group3.showList();
 
 //.apply
+console.log("Using .apply: ");
 let group4 = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
@@ -71,6 +78,8 @@ group4.showList();
 
 
 //Question #2
+console.log("Q#2: ");
+
 let i = 0;
 
 setTimeout(()=> console.log(i),100);
