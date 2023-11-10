@@ -24,6 +24,6 @@ std1.inputNewgrade(95);
 std1.inputNewgrade(90);
 std1.inputNewgrade(89);
 std1.inputNewgrade(78);
-console.log(`Average Grade of ${Student.getStudentFullName(std1)}: `, std1.computeAverage());
+console.log(`Average Grade of ${std1.getFullName()}: `, std1.computeAverage());
 
 const std2 = new Student("Tanusha", "Shrestha");
